@@ -1,0 +1,98 @@
+body {
+  text-align: right;
+  font-family: Tahoma;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.bg-light {
+  background-color: #f1f1ff !important;
+}
+
+.gotobtn {
+  position: absolute;
+  left: 5px;
+  top: 8px;
+}
+
+@media (max-width: 768px) {
+  .gotobtn {
+    margin-top: 5px;
+    text-align: center;
+    position: inherit;
+  }
+}
+
+@media (min-width: 768px) {
+  .alert-primary {
+    padding-left: 90px;
+  }
+}
+
+nav {
+  cursor: pointer
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  position: relative;
+}
+
+nav>ul>li {
+  display: inline-block;
+  padding: 0 10px;
+  line-height: 30px;
+  background: #cce5ff;
+  border: 1px solid #b8daff;
+  border-radius: 3px;
+  margin-right: 1px;
+  color: #007bff;
+}
+
+nav>ul>li:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* for Level One SubMenus */
+
+nav .sub-menu {
+  display: none;
+  position: absolute;
+  padding-right: 0;
+}
+
+nav .sub-menu>li {
+  display: block;
+  width: 120px;
+  padding: 5px 10px;
+  padding-left: 0;
+  background: #b8daff;
+  color: #007bff;
+  border-radius: 3px;
+}
+
+nav .sub-menu>li:hover {
+  background-color: #47a0ff;
+  color: white;
+}
+
+nav li:hover>.sub-menu {
+  display: block;
+}
+
+/* for SubMenus Of Level One SubMenu */
+
+nav .sub-menu>li>.sub-menu {
+  right: 120px;
+  top: 0;
+  box-shadow: 1px 2px 3px #000;
+  border-radius: 5px;
+}

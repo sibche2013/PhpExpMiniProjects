@@ -1,0 +1,41 @@
+body {
+  text-align: right
+}
+
+.bg-light {
+  background-color: #f1f1ff !important;
+}
+
+.gotobtn {
+  position: absolute;
+  left: 5px;
+  top: 8px;
+}
+
+@media (max-width: 768px) {
+  .gotobtn {
+    margin-top: 5px;
+    text-align: center;
+    position: inherit;
+  }
+}
+
+@media (min-width: 768px) {
+  .alert-primary {
+    padding-left: 90px;
+  }
+}
+
+@media (min-width: 768px) {
+  .alert-primary {
+    padding-left: 90px;
+  }
+}
+
+pre {
+  display: block;
+  font-size: 87.5%;
+  color: #212529;
+  font-family: tahoma;
+  text-align: center;
+}

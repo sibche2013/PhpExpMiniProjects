@@ -1,0 +1,21 @@
+body {
+  text-align: right
+}
+
+.bg-light {
+  background-color: #f1f1ff!important;
+}
+
+.gotobtn {
+  position: absolute;
+  left: 5px;
+  top: 8px;
+}
+
+@media (max-width: 768px) {
+  .gotobtn {
+    margin-top: 5px;
+    text-align: center;
+    position: inherit;
+  }
+}
